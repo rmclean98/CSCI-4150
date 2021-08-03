@@ -1,0 +1,6 @@
+QLabel {font-weight: bold;font-size: 20px;color: rgb(0,0,0)}
+QRadioButton {background-color: rgb(200,200, 200); font-weight: bold; font-size: 20px;color: rgb(0,0,0); height: 50px}
+QLineEdit {border-style: outset; border-width: 2px; border-radius: 10px; border-color: black; background-color: rgb(255,255, 255); height: 40px; font-size: 12px; color: rgb(0,0,0)}
+QPushButton {border-style: outset; border-width: 2px; border-radius: 10px; border-color: black; background-color: rgb(200,200, 200);height: 40px; font-size: 20px;color: rgb(0,0,0)}
+QStackedWidget {border-style: outset; border-width: 2px; border-radius: 10px; border-color: black; margin-left:5px; margin-right:5px; background-color: rgb(225,220, 235); color: rgb(0,0,0)}
+QCheckBox {color: black}
