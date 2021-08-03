@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( ImageSamplingAndQuantization )
+find_package( OpenCV )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( ImageSamplingAndQuantization ImageQuantization.cpp )
+target_link_libraries( ImageSamplingAndQuantization ${OpenCV_LIBS} )
