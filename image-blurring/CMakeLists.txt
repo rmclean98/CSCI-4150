@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( blur-image )
+find_package( OpenCV )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( blur-image blur-image.cpp )
+target_link_libraries( blur-image ${OpenCV_LIBS} )
